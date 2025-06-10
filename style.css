@@ -1,0 +1,40 @@
+
+
+
+    .box {
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .quote {
+        font-size: 24px;
+        color: #333;
+        border: 20px solid #e0e0e0;
+        border-radius: 10px;
+        padding: 40px 70px;;
+    }
+    .quote-text {
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    .author {
+        font-size: 20px;
+        color: #555;
+        text-align: right;
+    }
+
+    #click {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    button:hover {
+        background-color: #45a049; /* Darker green on hover */
+    }
