@@ -1,24 +1,134 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pass the Massege</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pass the massege</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
 </head>
+<style>
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+      45deg,
+      rgba(255, 0, 150, 0.8),
+      rgba(0, 204, 255, 0.8)
+    )
+  }
+
+  .container {
+    background-color: whitesmoke;
+    padding: 10px 30px;
+    margin: 30px 70px;
+    border-radius:5px;
+    border: 3px solid #fff;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    padding:15px;
+    margin-bottom: 15px;
+  }
+
+  .p {
+    margin-bottom: 20px;
+  }
+
+  .input {
+    position: relative;
+    background-color: #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+  }
+
+  input {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 400px;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    outline: none;
+    border: none;
+  }
+
+  #i {
+    text-align: center;
+  }
+
+  i:hover {
+    background-color: #eee;
+  }
+
+  button {
+    padding: 7px 20px;
+    background: #eee;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    margin-bottom: 20px;
+  }
+
+  button:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+  }
+
+  label{
+    background-color: #eee;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #ddd
+  }
+
+  label:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
+
+  .center {
+    text-align: center;
+    font-style: italic;
+  }
+
+  .output {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size:20px;
+  }
+
+
+</style>
 <body>
-    <div class="li11_col25">
-        <div class="li12_col29">
-            <h1>Pass the Massege</h1>
-            <p class="Name">Enter a Massege</p>
-          <div class="col13">
-            <input type="text" id="text">
-          </div>
-          <button id="button">submit</button>
-        </div>
+  <div class="container">
+    <h1>Pass the message</h1>
+    <p class="p">Enter your Mass</p>
+    <div class="input">
+     <label for="icons"><i class="fa-regular fa-envelope" id="i"></i></label>
+      <input type="text" id="message">
+   </div>
+    <button id="send">Send</button>
+    <div class="para">
+        <p class="output">Output:-</p>
+      <p class="center"></p>
     </div>
 </body>
 <script src="./script.js"></script>
 </html>
+
