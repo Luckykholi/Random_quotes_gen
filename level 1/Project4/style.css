@@ -1,0 +1,178 @@
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: rgb(248, 248, 69);
+}
+
+.box{
+    padding: 50px;
+}
+
+.nav {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;;
+    /* padding: 40px; */
+}
+
+#h1 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.header ul li {
+    display : inline-block;
+    /* padding: 10px; */
+    margin: 0 24px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.circle {
+    display: flex;
+    margin-top: 7%;
+    gap: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#arrow-left-right {
+    position: absolute;
+    right: 9%;
+    padding: 50px;
+    font-size: 100px;
+    color: yellow;
+    margin-top: -65px;
+    border-radius: 50%;
+    background-color: #111;
+}
+
+
+.circle-1 {
+    width: 30px;
+    height: 30px;
+    background-color: #111;
+    border-radius: 50%;
+}
+
+.next-row1 {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.h1 {
+    font-size: 220px;
+    line-height: 85%;
+    margin-left: -0px;
+    /* padding-left: 20px;
+     */
+}
+
+#img {
+    border-radius: 50px;
+    margin-top: -4%;
+}
+
+#p {
+    width: 35%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #545;
+}
+
+.next-row {
+    margin-bottom: 6%;
+}
+
+.fa-start-sharp {
+    color: #111;
+    font-size: 20px;
+    background-color: red;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn1-1 {
+    border: 2px solid #444;
+    padding: 10px 30px;
+    color: #233;
+    border-radius : 50px;
+    /* gap: 20px; */
+    font-size: 24px;
+    /* margin-bottom: 60px; */
+}
+
+.btn1-1 a {
+    color: #545;
+    font-size: 20px;
+    gap: 40px;
+    margin-left: 10px;
+}
+
+.linethrow {
+    width: 100vh;
+    height: 2px;
+    background-color: #545;
+}
+
+#circle {
+    color: #544;
+    font-size: 30px;
+    gap: -20px;
+}
+
+#img-1 {
+    width: 100%;
+    height: 700px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+   
+}
+
+/* .img-1 {
+    
+} */
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 50px;;
+    margin-top : -55px;
+}
+
+.fa-star {
+    color: yellow;
+    font-size: 50px;
+}
+
+.h5 {
+    color: yellow;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
